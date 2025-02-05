@@ -1,0 +1,70 @@
+# Unreal Engine Build Artifacts
+Binaries/
+Intermediate/
+Saved/
+
+# Visual Studio Project Files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.opensdf
+*.sdf
+*.ipch
+
+# Xcode Project Files
+*.xcodeproj/
+
+# Rider Project Files
+.idea/
+
+# CMake Project Files
+CMakeLists.txt.user
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+Makefile
+
+# Dependencies and Third-Party Libraries
+Plugins/ThirdParty/
+
+# Package and Distribution Files
+Packages/
+Shipping/
+Staging/
+
+# IntelliSense and Auto-Generated Files
+*.g.cs
+*.generated.cs
+*.meta
+*.mtime
+*.intellisense.json
+
+# Local User Settings
+*.ini
+*.local
+
+# Logs and Crash Reports
+Logs/
+CrashReports/
+
+# Profiling Data
+Profiling/
+
+# Temporary and Backup Files
+*.bak
+*.tmp
+~*
+
+# Thumbnail Cache
+Thumbs.db
+
+# Mac OS Finder Metadata
+.DS_Store
+
+# Unreal Engine Intermediate and Output Files
+DerivedDataCache/
+AssetRegistry.bin
+AssetRegistry.bin.size
+AssetRegistryData.blob
