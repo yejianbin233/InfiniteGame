@@ -25,6 +25,14 @@
 		{
 			"Name": "ModularGameplay",
 			"Enabled": true
+		},
+		{
+			"Name": "CommonEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "CommonGame",
+			"Enabled": true
 		}
 	]
 }
