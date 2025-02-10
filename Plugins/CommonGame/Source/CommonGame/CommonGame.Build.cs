@@ -32,8 +32,8 @@ public class CommonGame : ModuleRules
 				"Slate",
 				"SlateCore",
 				"UMG",
-				"CommonInput",
 				"CommonUI",
+				"CommonInput",
 				"GameplayTags",
 				"ModularGameplayActors",
 				// ... add other public dependencies that you statically link with here ...

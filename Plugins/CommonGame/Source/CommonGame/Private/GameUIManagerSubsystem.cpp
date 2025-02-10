@@ -30,6 +30,7 @@ void UGameUIManagerSubsystem::Deinitialize()
 
 bool UGameUIManagerSubsystem::ShouldCreateSubsystem(UObject* Outer) const
 {
+	// 只会在 UGameUIManagerSubsystem 的继承链最底下的一个类才会创建实例。
 	if (!CastChecked<UGameInstance>(Outer)->IsDedicatedServerInstance())
 	{
 		TArray<UClass*> ChildClasses;
